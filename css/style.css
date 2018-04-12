@@ -1,0 +1,33 @@
+body {
+	background-color: #FEFFFE;
+}
+
+.row{
+	display: flex;
+}
+
+h2{
+	color: white;
+}
+
+.column-1, .column-2, .column-3 {
+	flex: 1;
+	background-color: #CEF6F5;
+	text-align: center;
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Amatic SC', cursive;
+	font-size: 24px;
+
+}
+
+.row div img{
+	border-radius: 50%;
+	width: 200px;
+}
+
+footer{
+font-family: 'Gaegu', cursive;
+color: grey;
+text-align: center;
+}
